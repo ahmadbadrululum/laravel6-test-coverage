@@ -14,3 +14,8 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+// FRONTEND TEST
+Route::get('/test-grid', function () {
+    return view('test-grid');
+});
